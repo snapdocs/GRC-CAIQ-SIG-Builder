@@ -1,0 +1,27 @@
+# Credentials
+.env
+
+# Internal Snapdocs data (not for public repo)
+policies_folder/
+historical_qa.csv
+historical_qa.xlsx
+
+# Completed output files (contain internal answers)
+completed_*.csv
+Patrick_*.csv
+
+# Embedding/chunk caches (derived from internal docs)
+chunks_cache.json
+embeddings_cache.npy
+qa_embeddings_cache.npy
+
+# Internal planning notes
+PLAN.md
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
