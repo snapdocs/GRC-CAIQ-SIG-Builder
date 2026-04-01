@@ -39,6 +39,8 @@ Cost: ~$0.007/question. Full SIG (755 questions) ≈ $5.50. Full CAIQ (283 quest
 pip install -r requirements.txt
 ```
 
+This includes `sentence-transformers`, which will automatically download the `all-MiniLM-L6-v2` model (~90MB) from HuggingFace on first run. Internet access is required for this one-time download; subsequent runs use the cached model.
+
 ### 2. Create `.env` file
 
 ```
